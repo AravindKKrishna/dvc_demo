@@ -23,3 +23,25 @@ git commit -m "first commit"
 
 
 git push
+
+tox command
+
+tox
+
+
+for rebuilding
+
+tox -r
+
+pytest command
+
+pytest -v
+
+setup commands
+
+pip install -e .
+
+
+build your own package command-
+
+python setup.py sdist bdist wheel
